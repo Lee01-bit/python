@@ -92,5 +92,27 @@ Loading Files into  a DataFrame
 - CSV files contains plain text and is a well know format that can be read by everyone including Pandas.
 
 
+Read JSON files
+
+Viewing the data
+
+- The head() method returns the headers and a specified number of rows, starting from the top.
+- if the number of rows is not specified, the head() method will return the top 5 rows.
+
+- There is also a tail() method for viewing the last rows of the DataFrame.
+- The tail() method returns the headers and a specified number of rows, starting from the bottom.
 
 
+Getting info from the data 
+Info About the Data
+
+- The DataFrames object has a method called info(), that gives you more information about the data set.
+
+
+Cleaning Empty Cells
+- By default, the dropna() method returns a new DataFrame, and will not change the original.
+- Now, the dropna(inplace = True) will NOT return a new DataFrame, but it will remove all rows containing NULL values from the original DataFrame.
+
+
+  Replace Empty values
+  - The fillna() method allows us to replace empty cells with a value:
