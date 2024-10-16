@@ -35,11 +35,34 @@ Explicit Type Conversion (Type Casting):
 ![image](https://github.com/user-attachments/assets/14584826-21d7-47bb-a68f-b728974bd13e)
 
 
+Lists, tuples, dictionaries, sets (16 Ocotber 2024)
 
+list 
 
+- it is an ordered list collection of items that can hold a variety of data types
+- they are mutable , meaning that they can change their contents after they are created.
 
+  Key characterisctics:
+  - order: items in a list are ordered and indexed , starting from 0
+  - mutability: they can be modified by adding, removing or changin elements
+  - Heterogeneous: they can contain elements of different data types.
+ 
+  Operations
 
+  - append() - to add items to the end of the list or you can use insert() to add to a specific position.
+  - use indexing (e.g. list[0] forthe first item) or slicing (e.g. list[1:3] for a small list)
+    
 
+Libraries
+
+what are they ? 
+- libraries in pyhton are collections of pre-written code that you import into your projects to extend the functionality of you programs.
+- 
+Why Use NumPy and pandas?
+
+NumPy: Ideal for numerical computations and working with large arrays and matrices.
+
+pandas: Essential for data analysis and manipulation, especially when dealing with structured data like tables.
 
 
 
