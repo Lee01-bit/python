@@ -65,11 +65,31 @@ NumPy: Ideal for numerical computations and working with large arrays and matric
 pandas: Essential for data analysis and manipulation, especially when dealing with structured data like tables.
 
 
+PANDA 
+
+panda is a python library used for working with data sets. it has many Functions for analyzing, cleaning, exploring and manipulating data.
+
+What is Series?
+- it is like a column in a table.
+- it is a one-dimensional array holding data of any data type.
+
+  Dataframe - it is a two-dimensional data structure that holds data like a two-dimensio array or a table with rows and columns.
+
+Labels
+
+- With the <b>index</b> argument, you can name your own labels. 
 
 
+DATAFRAMES
+- it is a 2 dimensional data structure
 
+- Pandas use the loc attribute to return one or more specified row(s)
+- If you have a large DataFrame with many rows, Pandas will only return the first 5 rows, and the last 5 rows:
+- use to_string() to print the entire DataFrame.
 
-
+Loading Files into  a DataFrame
+- A simple way to store big data sets is to use CSV files (comma separated files).
+- CSV files contains plain text and is a well know format that can be read by everyone including Pandas.
 
 
 
